@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 10px;
+}
+.navbar {
+    display: none;
+}
+.reveal-button {
+    background: #ffffff url("../img/menu-icon.png") no-repeat;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    opacity: 0.75;
+    margin: 10px;
+}
+.reveal-button:hover {
+    opacity: 1;
+}
+.menu-item {
+    display: inline-flex;
+    color: #344567;
+    margin-right: 50px;
+    list-style: none;
+}
+.menu-item a {
+    color: #252;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    color: #fff;
+}
