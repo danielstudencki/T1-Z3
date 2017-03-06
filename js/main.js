@@ -2,6 +2,8 @@
 
     $(function(){
         
+        // Obsługa przycisku hamburger-menu
+
         var revealButton = $('.reveal-button'),
             navbar = $('.navbar');
 
