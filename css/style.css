@@ -51,4 +51,5 @@ nav {
     width: 400px;
     border: 1px solid #77f;
     border-top: 0px;
+    word-wrap: break-word;
 }
