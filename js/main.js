@@ -30,6 +30,7 @@
         addButton.on('click', function(e){
             e.preventDefault();
             var value = textField.val().trim();
+            textField.val('');
 
             if(value !== "") {
                 var newElement = $('<li class="item">'+value+'</li>')
